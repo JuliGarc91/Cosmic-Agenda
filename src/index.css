@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(./assets/Saturn-Rings-BW.png);
+  background-image: url(./assets/Saturn-Rings.jpeg);
   background-size: cover;
   background-attachment: fixed;
-    color: #18215d;
+  /* color palette to be used through out app - see draft css */
+    /* color: #18215d;
     color: #503197;
     color: #bf53c9;
-    color: #e17cb7;
+    color: #e17cb7; */
     color: #efaaa5;
-    color: #f6e0c8;
+    /* color: #f6e0c8; */
 }

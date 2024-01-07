@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url(./assets/Saturn-Rings-BW.png);
+  background-size: cover;
+  background-attachment: fixed;
+    color: #18215d;
+    color: #503197;
+    color: #bf53c9;
+    color: #e17cb7;
+    color: #efaaa5;
+    color: #f6e0c8;
+}

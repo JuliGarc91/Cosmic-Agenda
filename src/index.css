@@ -1,17 +1,46 @@
 * {
-  margin: 0;
+  margin: auto;
   padding: 0;
   box-sizing: border-box;
 }
 body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-image: url(./assets/Saturn-Rings.jpeg);
   background-size: cover;
   background-attachment: fixed;
   /* color palette to be used through out app - see draft css */
-    /* color: #18215d;
+    color: #18215d;
     color: #503197;
     color: #bf53c9;
-    color: #e17cb7; */
+    color: #e17cb7;
     color: #efaaa5;
-    /* color: #f6e0c8; */
+    color: #f6e0c8;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  color: #f6e0c8;
+  padding: 1%; /* Some dynamic padding */
+  text-align: center;
+}
+
+ul {
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+  color: #efaaa5; 
+  padding: 1%; /* Some dynamic padding */
+  text-align: center;
+  max-width: 30%;
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+
+footer {
+  width: 100%;
+  background-color:black;
+  color:#f6e0c8;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-size: 5%;
 }
